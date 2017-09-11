@@ -1,0 +1,372 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+
+
+
+.overlay {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: rgba(0, 0, 0, .7);
+}
+
+.title {
+	color: #fff42b;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 3em;
+	letter-spacing: 4px;
+	width: 250px;
+	text-align: left;
+	margin-left: 6%;
+	padding-top: 60px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #fff42b;
+}
+
+nav {
+	width: 100%;
+	height: 80px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background-color: rgba(0, 0, 0, 0);
+	transition: all .6s;
+}
+
+
+.nonTransparent {
+	background-color: rgba(0, 0, 0, .8);
+}
+
+#logo {
+	color: #fff42b;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: bold;
+	float: left;margin-left: 60px;
+	margin-top: 20px;
+}
+
+#navigationList {
+	 list-style-type: none;
+	 width: 40%;
+	 padding: 0;
+	 margin: 0;
+	 float: right;
+	 margin-top: 30px;
+}
+
+#navigationList li {
+	float: left;
+	width: 25%;
+	margin-right: 0;
+	padding: 0;
+	text-align: center;
+	color: red;
+}
+
+#navigationList li a {
+	font-size: 1.3em;
+	font-family: Open Sans Condensed, sans-serif;
+	transition: all .4s;
+	text-decoration: none;
+	color: white;
+}
+
+#navigationList li a:hover {
+	color: #fff42b;
+}
+
+#mainHeroSectionWrapper {
+	width: 100%;
+	height: 1000px;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/heroImage2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#busTrackerText {
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	left: 150px;
+	top: 500px; 
+	z-index: 3;
+}
+
+.word {
+	float: left;
+	margin: 0;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	background-color: #fff42b;
+	position: relative;
+}
+
+.welcome-word {
+	float: left;
+	margin: 0;
+	width: 40%;
+	text-align: center;
+	color: white;
+	height: 100%;
+	position: relative;
+}
+
+#welcomeWords {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: normal;
+}
+
+#firstWord {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 30px;
+	letter-spacing: 8px;
+	font-weight: normal;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #fff42b; 
+}
+
+#secondWord {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 30px;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+#heroDescription {
+	width: 50%;
+	height: 100px;
+	position: absolute;
+	left: 150px;
+	top: 600px; 
+	z-index: 3;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
+	color: white;
+	padding-left: 50px;
+}
+
+#aboutSection {
+	width: 100%;
+	height: 500px;
+	background-color: #191714;
+}
+
+#aboutSection h1 {
+	margin-top: 0;
+}
+
+.left-text {
+	width: 40%;
+	margin-left: 6%;
+	margin-top: 80px;
+	float: left;
+	color: white;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
+}
+
+.right-image {
+	float: left;
+	width: 30%;
+	height: 300px;
+	margin-left: 14%;
+	margin-right: 10%;
+}
+
+#teamSection {
+	width: 100%;
+	height: 800px;
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/teamImage.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#teamSection .overlay {
+	background-color: rgba(0, 0, 0, .3);
+}
+
+.sectionTitleWrapper {
+
+	width: 40%;
+	height: 100px;
+	position: absolute;
+	left: 30%;
+	top: 100pX; 
+	z-index: 3;
+	clear: both;
+}
+
+.welcomeWords {
+	float: left;
+	margin: 0;
+	width: 40%;
+	text-align: center;
+	color: white;
+	height: 100%;
+	position: relative;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: normal;
+}
+
+.firstWord {
+	float: left;
+	margin: 0;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	background-color: #fff42b;
+	position: relative;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 40px;
+	letter-spacing: 8px;
+	font-weight: normal;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #fff42b;
+}
+
+.secondWord {
+	float: left;
+	margin: 0;
+	width: 30%;
+	height: 100%;
+	text-align: center;
+	color: white;
+	background-color: #fff42b;
+	position: relative;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 40px;
+	letter-spacing: 4px;
+	font-weight: bold;
+}
+
+#teamMembers {
+	width: 90%;
+	margin-right: 5%;
+	margin-left: 5%;
+	padding-top: 300px;
+}
+
+.team-member {
+	width: 23%;
+	margin: 0 1% 0 1%;
+	height: 400px;
+	position: relative;
+	float: left;
+}
+
+.memeberImage {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	z-index: 3;
+}
+
+.member-info {
+	width: 100%;
+	height: 150px;
+	padding: 5px 18px 0px 18px;
+	position: absolute;
+	top: 250px;
+	background-color: white;
+	color: black;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 15px;
+	letter-spacing: 4px;
+	z-index: 4;
+	border: 2px solid #fff42b;
+}
+
+.member-name {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 18px;
+	letter-spacing: 4px;
+	color: #fff42b;
+	font-weight: bold;
+}
+
+footer {
+	width: 100%;
+	height: 150px;
+	background-color: #191714;
+	clear: both;
+}
+
+#location {
+	color: white;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 25px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding-top: 60px;
+}
+
+#contact {
+	padding-top: 60px;
+	color: white;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 25px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+}
+
+#phone {
+	color: white;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 25px;
+	float: left;
+	width: 33.33%;
+	text-align: center;
+	padding-top: 60px;
+}
+
+#rights {
+	color: white;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 25px;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-top: 60px;
+	background-color: #191714;
+	padding-bottom: 30px;
+}
+
+span {
+	color: #fff42b;
+	margin-right: 10px;
+}
+
+#busTrackerText h1 {
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 50px;
+	letter-spacing: 8px;
+}
